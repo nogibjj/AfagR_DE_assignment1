@@ -1,0 +1,13 @@
+{
+    "name": "Assignment_1",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.autopep8"
+            ]
+        }
+    }
+}
