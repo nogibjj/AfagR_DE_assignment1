@@ -1,6 +1,6 @@
 def multiply(x, y):
-
-    return x * y
+    a = x * y
+    return f"Multiply {x} by {y}, result is {a}."
 
 
 if __name__ == "__main__":

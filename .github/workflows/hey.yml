@@ -1,5 +1,5 @@
 name: CI
-on:  #when to run the github actions
+on:  
     push:
         branches: ["main"]
     workflow_dispatch:
@@ -7,7 +7,7 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3 #this is the plugin for github actions
+            - uses: actions/checkout@v3 
             - name: install packages
               run: make install
             - name: format

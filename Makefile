@@ -1,12 +1,12 @@
 install:
 
 	pip install -r requirements.txt
-format: # formats the files
+format: 
 	black *.py
 
-lint: # checks the code quality
+lint: 
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
  
-test: #pytest
+test: 
 	python -m pytest -cov=main test_main.py 
 all: install format lint test

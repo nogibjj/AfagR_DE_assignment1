@@ -1,5 +1,5 @@
 {
-    "name": "Assignment_1",
+    "name": "Assignment_1 Mini Project DevContainer",
     "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
@@ -9,5 +9,9 @@
                 "ms-python.autopep8"
             ]
         }
-    }
+    },
+    "forwardPorts": [
+        5000
+    ],
+    "remoteUser": "vscode"
 }
